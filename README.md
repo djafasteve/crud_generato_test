@@ -27,3 +27,17 @@ If you prefer the plain `docker` command, build the image and run it manually:
 docker build -t recipe-api .
 docker run -p 8000:8000 recipe-api
 ```
+=======
+Build the Docker image:
+
+```bash
+docker build -t recipe-api .
+```
+
+Run the container:
+
+```bash
+docker run -p 8000:8000 recipe-api
+```
+
+Access the interactive API docs at [http://localhost:8000/docs](http://localhost:8000/docs).
