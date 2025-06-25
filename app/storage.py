@@ -4,7 +4,7 @@ from typing import List
 
 from .schemas import Recipe, RecipeCreate
 
-DATA_FILE = Path("recipes.json")
+DATA_FILE = Path("data/recipes.json")
 
 
 def _load_data() -> List[dict]:
