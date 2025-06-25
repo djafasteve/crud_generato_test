@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List
 from pydantic import BaseModel
 
 class RecipeBase(BaseModel):
@@ -13,4 +13,4 @@ class Recipe(RecipeBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
